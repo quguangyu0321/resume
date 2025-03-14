@@ -50,11 +50,13 @@ additional_links:
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
-    Proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>Git</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
+    Proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>SQL</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
 
     My expertise spans  <mark>Fraud Analysis</mark>, <mark>Marketing</mark>, <mark>HR-tech</mark>, and <mark>global IoT connectivity</mark> among other areas.
 
-    Currently overseeing the deployment of in-vehicle network services for BMW across Europe, I bridge the gap between customer requirements and technical execution. With a strong background in data-driven analysis and business operations, I focus on optimizing service deployment, ensuring seamless coordination between stakeholders, and driving project success. Passionate about leveraging data insights to enhance connectivity solutions, I thrive in cross-functional environments that require both strategic thinking and execution excellence.
+    Currently managing the delivery of large-scale telematics projects for leading automotive brands worldwide. I ensure seamless coordination between customer requirements and technical execution, optimizing service deployment and driving project success across multiple regions.
+
+    Beyond IoT and connectivity, I am actively exploring AI applications, working on real-world implementations to enhance business operations. I am committed to continuous learning, staying at the forefront of technological advancements to drive innovation and efficiency.
 
 content:
   # - title: Projects # Title for the section
