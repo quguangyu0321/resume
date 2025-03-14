@@ -50,9 +50,11 @@ additional_links:
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
-    My expertise spans Fraud Analysis, Marketing, HR-tech, and IOT among other areas.
-    
-    I am proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>Git</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
+    Proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>Git</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
+
+    My expertise spans  <mark>Fraud Analysis</mark>, <mark>Marketing</mark>, <mark>HR-tech</mark>, and <mark>global IoT connectivity</mark> among other areas.
+
+    I specialize in managing the delivery of large-scale telematics projects. Currently overseeing the deployment of in-vehicle network services for BMW across Europe, I bridge the gap between customer requirements and technical execution. With a strong background in data-driven analysis and business operations, I focus on optimizing service deployment, ensuring seamless coordination between stakeholders, and driving project success. Passionate about leveraging data insights to enhance connectivity solutions, I thrive in cross-functional environments that require both strategic thinking and execution excellence.
 
 content:
   # - title: Projects # Title for the section
@@ -153,19 +155,6 @@ content:
                   - Installing and configuring a Zabbix-based monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
                   - Writing automated web application tests using Selenium and Python.
 
-  - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    content: | # this will include new lines to allow paragraphs
-      - 2014-2016, Master(Cognitive and Behavioral Sciences), Kyoto University, Kyoto
-      - 2009-2013, Bachelor(Information Sciences), Tianjin University, Tianjin
-
-  - title: Languages # Title for the section
-    layout: text # Type of content section (list/text)
-    content: | # this will include new lines to allow paragraphs
-      - Mandarin(Native)
-      - Japanese(High Proficiency)
-      - English(Business)
-
   - title: Tech Stack # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
@@ -178,6 +167,19 @@ content:
       - Infra(K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
       - Log Management(Elasticsearch, Kibana, Logstash, Beatsfamily)
       - Microsoft Solution(GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+
+  - title: Education # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+      - 2014-2016, Master(Cognitive and Behavioral Sciences), Kyoto University, Kyoto
+      - 2009-2013, Bachelor(Information Sciences), Tianjin University, Tianjin
+
+  - title: Languages # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+      - Mandarin(Native)
+      - Japanese(High Proficiency)
+      - English(Business)
 
   # - title: A Little More About Me
   #   layout: text
