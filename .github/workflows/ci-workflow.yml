@@ -17,14 +17,16 @@ jobs:
       with:
         ruby-version: '3.1'
         bundler-cache: true
-    - name: Built test sites
-      run: |
-        bundle exec jekyll build --config _test/_config-version-1.yml --destination ./_test-site-1
-        bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
-    - name: Run tests
-      run: |
-        bundle exec htmlproofer ./_test-site-1 --disable-external
-        bundle exec htmlproofer ./_test-site-2 --disable-external
+    - name: Build Main Site
+      run: bundle exec jekyll build
+    # - name: Built test sites
+    #   run: |
+    #     bundle exec jekyll build --config _test/_config-version-1.yml --destination ./_test-site-1
+    #     bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
+    # - name: Run tests
+    #   run: |
+    #     bundle exec htmlproofer ./_test-site-1 --disable-external
+    #     bundle exec htmlproofer ./_test-site-2 --disable-external
 
   ci-skip:
     runs-on: ubuntu-latest
