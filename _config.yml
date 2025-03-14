@@ -50,7 +50,7 @@ additional_links:
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
-    My expertise spans Fraud Analysis, Marketing, and HR-tech, among other areas.
+    My expertise spans Fraud Analysis, Marketing, HR-tech, and IOT among other areas.
     
     I am proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>Git</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
 
@@ -82,7 +82,7 @@ content:
         title: NTT Docomo Business
         link: https://www.ubigi.com/connected-cars/
         # link_text: boringcompany.com
-        sub_title: Presales Engineer
+        sub_title: Presales Engineer, Tokyo
         caption: December 2024 - Present
         description: | # this will include new lines to allow paragraphs
             - Led proposals and delivery support for both domestic and international connected car projects by understanding unique IT system requirements and collaborating with internal teams and global partners.
@@ -95,7 +95,7 @@ content:
         title: Transatel
         link: https://cellulardata.ubigi.com
         # link_text: boringcompany.com
-        sub_title: Analystics Engineer
+        sub_title: Analystics Engineer, Paris
         caption: December 2023 - November 2024
         description: | # this will include new lines to allow paragraphs
               I play a dual role, contributing to both the Marketing and Business Intelligence (BI) teams.
@@ -107,7 +107,7 @@ content:
         title: Docomo Pacific
         link: https://www.docomopacific.com
         # link_text: boringcompany.com
-        sub_title: Analystics Engineer
+        sub_title: Analystics Engineer, Guam
         caption: April 2023 - September 2023
         description: | # this will include new lines to allow paragraphs
               I spearheaded a six-month project where I served as the lead trainer for Guam’s BI team.
@@ -118,7 +118,7 @@ content:
         title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Analystics Engineer
+        sub_title: Analystics Engineer, Tokyo
         caption: April 2020 - November 2023
         description: | # this will include new lines to allow paragraphs
                  Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
@@ -130,7 +130,7 @@ content:
 
       - layout: left
         border: weak
-        title: NTT Communications
+        title: NTT Communications, Tokyo
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: DBA+PM
@@ -141,8 +141,7 @@ content:
                 - Designing and implementing an ETL platform using OSS Talend Data Studio for the DWH team, resulting in faster data integration processes.
 
       - layout: left
-        # border: weak
-        title: NTT Communications
+        title: NTT Communications, Tokyo
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Software Developer
