@@ -94,8 +94,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Analystics Engineer
         caption: December 2023 - November 2024
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
               I play a dual role, contributing to both the Marketing and Business Intelligence (BI) teams.
               - Led in-depth marketing analysis for Ubigi's eSIM service(travel data from around the world), leveraging advanced data analytics to drive strategic decisions and enhance service offerings.
@@ -107,8 +105,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Analystics Engineer
         caption: April 2023 - September 2023
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
               I spearheaded a six-month project where I served as the lead trainer for Guam’s BI team.
               I designed and delivered interactive, hands-on workshops to empower them in mastering Power BI, while also providing expert guidance on executing comprehensive customer satisfaction survey analyses.
@@ -119,8 +115,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Analystics Engineer
         caption: April 2020 - November 2023
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
                  Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
                  I also serve as a link between the data engineer and data analyst teams within the big data group. Create services and teach the analysis team how to use the system.
@@ -135,8 +129,6 @@ content:
         # link_text: boringcompany.com
         sub_title: DBA+PM
         caption: April 2017 - March 2020
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
                 Project Manager responsible for the maintenance of the on-premise Oracle EXADATA Database Machine platform. Reviewing daily tasks such as capacity planning, performance monitoring, security, backups, troubleshooting, and data recovery. 
                 - Designing and implementing a disaster backup site in a different region to ensure business continuity.
@@ -148,8 +140,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Software Developer
         caption: April 2016 - March 2017
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
                   I have experience in developing a Master IT Facility Management System that collects and manages data from servers, network devices, and Excel files, providing reliable information via a web GUI for operators. 
                   - Constructing Linux/Windows servers and virtualized environments using Openstack, Docker, and Ansible in an on-premise setting.
@@ -189,9 +179,9 @@ footer_show_references: false
 # Build settings
 remote_theme: sproogen/resume-theme
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
-plugins:
- - jekyll-seo-tag
+# plugins:
+#  - jekyll-seo-tag
