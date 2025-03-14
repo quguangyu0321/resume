@@ -140,6 +140,7 @@ content:
                 - Designing and implementing an ETL platform using OSS Talend Data Studio for the DWH team, resulting in faster data integration processes.
 
       - layout: left
+        border: weak
         title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
