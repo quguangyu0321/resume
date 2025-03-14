@@ -18,14 +18,10 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
     - name: Build Main Site
-      run: bundle exec jekyll build
-
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: ./_site
+      run: bundle exec jekyll build -d _site
 
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        artifact_name: github-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site  # 部署 Jekyll 生成的静态文件
