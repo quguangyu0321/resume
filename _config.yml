@@ -78,6 +78,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: NTT Docomo Business
         link: https://www.ubigi.com/connected-cars/
         # link_text: boringcompany.com
@@ -89,6 +90,7 @@ content:
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
       - layout: left
+        border: weak
         title: Transatel
         link: https://cellulardata.ubigi.com
         # link_text: boringcompany.com
@@ -100,6 +102,7 @@ content:
               - Collaborated closely with the Business Intelligence (BI) team to facilitate a seamless BI Platform Migration of the BI platform from on-premises to Snowflake, significantly improving data processing efficiency and scalability.
 
       - layout: left
+        border: weak
         title: Docomo Pacific
         link: https://www.docomopacific.com
         # link_text: boringcompany.com
@@ -110,6 +113,7 @@ content:
               I designed and delivered interactive, hands-on workshops to empower them in mastering Power BI, while also providing expert guidance on executing comprehensive customer satisfaction survey analyses.
 
       - layout: left
+        border: weak
         title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -124,6 +128,7 @@ content:
                  - I have experience in proof of concept and implementation of Data Virtualization solutions ( Denodo) and data catalog solutions to help users accelerate their analysis.
 
       - layout: left
+        border: weak
         title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
