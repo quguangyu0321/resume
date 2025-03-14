@@ -166,6 +166,19 @@ content:
       - Japanese(High Proficiency)
       - English(Business)
 
+  - title: Tech Stack # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+      - Database (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
+      - BI Tools (Tableau, PowerBI, Superset, Streamlit)
+      - Metadata Management(Datahub, OpenMetadata)
+      - Data Virturalization (denodo, tibco)
+      - ETL/ELT(DBT, Airflow, Talend, Airbyte)
+      - Data Quality(Dbt test, Great expectations, Pytest)
+      - Infra(K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
+      - Log Management(Elasticsearch, Kibana, Logstash, Beatsfamily)
+      - Microsoft Solution(GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
