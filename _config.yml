@@ -139,9 +139,9 @@ content:
         sub_title: DBA+PM
         caption: April 2017 - March 2020
         description: | # this will include new lines to allow paragraphs
-                Project Manager responsible for the maintenance of the on-premise Oracle EXADATA Database Machine platform. Reviewing daily tasks such as capacity planning, performance monitoring, security, backups, troubleshooting, and data recovery. 
+                Project Manager responsible for the maintenance of the on-premise <mark>Oracle</mark> EXADATA Database Machine platform. Reviewing daily tasks such as capacity planning, performance monitoring, security, backups, troubleshooting, and data recovery. 
                 - Designing and implementing a disaster backup site in a different region to ensure business continuity.
-                - Designing and implementing an ETL platform using OSS Talend Data Studio for the DWH team, resulting in faster data integration processes.
+                - Designing and implementing an ETL platform using OSS <mark>Talend</mark> Data Studio for the DWH team, resulting in faster data integration processes.
 
       - layout: left
         title: NTT Communications, Tokyo
@@ -152,22 +152,22 @@ content:
         description: | # this will include new lines to allow paragraphs
                   I have experience in developing a Master IT Facility Management System that collects and manages data from servers, network devices, and Excel files, providing reliable information via a web GUI for operators. 
                   - Constructing Linux/Windows servers and virtualized environments using Openstack, Docker, and Ansible in an on-premise setting.
-                  - Designing and implementing a Storage Area Network (SAN) composed of servers, FC-switches, and VNX Storage.
-                  - Installing and configuring a Zabbix-based monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
-                  - Writing automated web application tests using Selenium and Python.
+                  - Designing and implementing a Storage Area Network (<mark>SAN</mark>) composed of servers, FC-switches, and VNX Storage.
+                  - Installing and configuring a <mark>Zabbix</mark> monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
+                  - Writing automated web application tests using <mark>Selenium</mark> and Python.
 
   - title: Tech Stack # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
-      - Database (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
-      - BI Tools (Tableau, PowerBI, Superset, Streamlit)
-      - Metadata Management (Datahub, OpenMetadata)
-      - Data Virturalization  (denodo, tibco)
-      - ETL/ELT (DBT, Airflow, Talend, Airbyte)
-      - Data Quality (Dbt test, Great expectations, Pytest)
-      - Infra (K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
-      - Log Management (Elasticsearch, Kibana, Logstash, Beatsfamily)
-      - Microsoft Solution (GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+      - **Database** (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
+      - **BI Tools** (Tableau, PowerBI, Superset, Streamlit)
+      - **Metadata Management** (Datahub, OpenMetadata)
+      - **Data Virturalization** (denodo, tibco)
+      - **ETL/ELT** (DBT, Airflow, Talend, Airbyte)
+      - **Data Quality** (Dbt test, Great expectations, Pytest)
+      - **Infra** (K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
+      - **Log Management** (Elasticsearch, Kibana, Logstash, Beatsfamily)
+      - **Microsoft Solution** (GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
 
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
