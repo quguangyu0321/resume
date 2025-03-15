@@ -102,7 +102,7 @@ content:
         caption: December 2023 - November 2024
         description: | # this will include new lines to allow paragraphs
               I play a dual role, contributing to both the Marketing and Business Intelligence (BI) teams.
-              - Led in-depth marketing analysis for Ubigi's eSIM service(travel data from around the world), leveraging advanced data analytics to drive strategic decisions and enhance service offerings.
+              - Led in-depth marketing analysis for <mark>Ubigi</mark>'s eSIM service(travel data from around the world), leveraging advanced data analytics to drive strategic decisions and enhance service offerings.
               - Collaborated closely with the Business Intelligence (BI) team to facilitate a seamless BI Platform Migration of the BI platform from on-premises to Snowflake, significantly improving data processing efficiency and scalability.
 
       - layout: left
@@ -126,9 +126,9 @@ content:
         description: | # this will include new lines to allow paragraphs
                  Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
                  I also serve as a link between the data engineer and data analyst teams within the big data group. Create services and teach the analysis team how to use the system.
-                 - I have experience in driving business transformation for the internal audit team by helping them efficiently analyze internal risk and perform effective audits.(Fraud Analysis)
-                 - I supported the HR department by analyzing investigations of employee engagement. Through this role, I helped HR identify areas of concern and implemented solutions to improve employee satisfaction and retention.(HR Analysis)
-                 - I led to discuss and build data modeling guildline in bigdata team. Standardlize the process from source layer to dwh layer and datamart layer(Data Modeling).
+                 - I have experience in driving business transformation for the <mark>internal audit</mark> team by helping them efficiently analyze internal risk and perform effective audits.(<mark>Fraud Analysis</mark>)
+                 - I supported the HR department by analyzing investigations of employee engagement. Through this role, I helped HR identify areas of concern and implemented solutions to improve employee satisfaction and retention.(<mark>HR Analysis</mark>)
+                 - I led to discuss and build data modeling guildline in bigdata team. Standardlize the process from source layer to dwh layer and datamart layer(<mark>Data Modeling</mark>).
                  - I have experience in proof of concept and implementation of Data Virtualization solutions ( Denodo) and data catalog solutions to help users accelerate their analysis.
 
       - layout: left
@@ -159,15 +159,15 @@ content:
   - title: Tech Stack # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
-      - <mark>Database<mark> (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
-      - <mark>BI Tools<mark> (Tableau, PowerBI, Superset, Streamlit)
-      - <mark>Metadata Management<mark>(Datahub, OpenMetadata)
-      - <mark>Data Virturalization<mark> (denodo, tibco)
-      - <mark>ETL/ELT<mark>(DBT, Airflow, Talend, Airbyte)
-      - <mark>Data Quality<mark>(Dbt test, Great expectations, Pytest)
-      - <mark>Infra<mark>(K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
-      - <mark>Log Management<mark>(Elasticsearch, Kibana, Logstash, Beatsfamily)
-      - <mark>Microsoft Solution<mark>(GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+      - <mark>Database</mark> (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
+      - <mark>BI Tools</mark> (Tableau, PowerBI, Superset, Streamlit)
+      - <mark>Metadata Management</mark>(Datahub, OpenMetadata)
+      - <mark>Data Virturalization</mark> (denodo, tibco)
+      - <mark>ETL/ELT</mark>(DBT, Airflow, Talend, Airbyte)
+      - <mark>Data Quality</mark>(Dbt test, Great expectations, Pytest)
+      - <mark>Infra</mark>(K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
+      - <mark>Log Management</mark>(Elasticsearch, Kibana, Logstash, Beatsfamily)
+      - <mark>Microsoft Solution</mark>(GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
 
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
