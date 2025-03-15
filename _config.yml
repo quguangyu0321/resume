@@ -1,7 +1,6 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
 # Content configuration version
 version: 2
 
@@ -206,5 +205,5 @@ remote_theme: sproogen/resume-theme
 #   sass_dir: _sass
 #   style: compressed
 
-# plugins:
-#  - jekyll-seo-tag
+plugins:
+  # - jekyll-seo-tag
