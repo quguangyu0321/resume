@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
 
     Currently managing the delivery of large-scale telematics projects for leading automotive brands worldwide. I ensure seamless coordination between customer requirements and technical execution, optimizing service deployment and driving project success across multiple regions.
 
-    Beyond IoT and connectivity, I am actively exploring AI applications, working on real-world implementations to enhance business operations. I am committed to continuous learning, staying at the forefront of technological advancements to drive innovation and efficiency.
+    Beyond IoT and connectivity, I am actively exploring AI applications, leveraging <mark>LLMs</mark>, Model Context Protocol (<mark>MCP</mark>), and other advanced technologies to develop intelligent business tools. Committed to continuous learning, I stay at the forefront of technological advancements to drive innovation and efficiency.
 
 content:
   # - title: Projects # Title for the section
