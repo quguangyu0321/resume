@@ -159,15 +159,15 @@ content:
   - title: Tech Stack # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
-      - <mark>Database</mark> (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
-      - <mark>BI Tools</mark> (Tableau, PowerBI, Superset, Streamlit)
-      - <mark>Metadata Management</mark>(Datahub, OpenMetadata)
-      - <mark>Data Virturalization</mark> (denodo, tibco)
-      - <mark>ETL/ELT</mark>(DBT, Airflow, Talend, Airbyte)
-      - <mark>Data Quality</mark>(Dbt test, Great expectations, Pytest)
-      - <mark>Infra</mark>(K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
-      - <mark>Log Management</mark>(Elasticsearch, Kibana, Logstash, Beatsfamily)
-      - <mark>Microsoft Solution</mark>(GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+      - Database (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
+      - BI Tools (Tableau, PowerBI, Superset, Streamlit)
+      - Metadata Management (Datahub, OpenMetadata)
+      - Data Virturalization  (denodo, tibco)
+      - ETL/ELT (DBT, Airflow, Talend, Airbyte)
+      - Data Quality (Dbt test, Great expectations, Pytest)
+      - Infra (K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
+      - Log Management (Elasticsearch, Kibana, Logstash, Beatsfamily)
+      - Microsoft Solution (GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
 
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
