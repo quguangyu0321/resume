@@ -1,0 +1,2 @@
+- command
+    - bundle exec jekyll serve

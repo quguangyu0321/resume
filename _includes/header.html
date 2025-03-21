@@ -18,13 +18,6 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.email -%}
-          <li>
-            <a target="_blank" href="mailto:{{ site.email | encode_email }}" class="button button--sacnite button--round-l">
-              <i class="fas fa-envelope" title="Email"></i>
-            </a>
-          </li>
-        {%- endif -%}
         {%- if site.instagram_username -%}
           <li>
             <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -47,6 +40,17 @@
           </li>
         {%- endfor -%}
       </ul>
+
+        {%- if site.email -%}
+        <p>
+          <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        </p>
+        {%- endif -%}
+        {%- if site.website -%}
+        <p>
+          {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+        {%- endif -%}
     </div>
   </div>
 </div> 
