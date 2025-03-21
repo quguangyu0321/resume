@@ -37,7 +37,7 @@ function switchLanguage(lang) {
   
   // 根据语言重定向到相应页面
   if (lang === 'en') {
-    window.location.href = '/';
+    window.location.href = '/resume/';
   } else {
     window.location.href = '/resume/' + lang + '/';
   }
