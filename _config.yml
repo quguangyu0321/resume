@@ -69,7 +69,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
     Proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>SQL</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
