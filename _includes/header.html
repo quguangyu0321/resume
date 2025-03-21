@@ -1,0 +1,52 @@
+<div class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>
+        {% if page.lang == 'ja' and site.name_ja %}
+          {{ site.name_ja | escape }}
+        {% else %}
+          {{ site.name | escape }}
+        {% endif %}
+      </h1>
+      <h2>
+        {% if page.lang == 'ja' and site.translations.ja.title %}
+          {{ site.translations.ja.title | escape }}
+        {% else %}
+          {{ site.title | escape }}
+        {% endif %}
+      </h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print">
+        {%- if site.email -%}
+          <li>
+            <a target="_blank" href="mailto:{{ site.email | encode_email }}" class="button button--sacnite button--round-l">
+              <i class="fas fa-envelope" title="Email"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.instagram_username -%}
+          <li>
+            <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-instagram" title="Instagram"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-linkedin" title="LinkedIn"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- for link in site.additional_links -%}
+          <li>
+            <a target="_blank" href="{{ link.url }}" class="button button--sacnite button--round-l">
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div> 

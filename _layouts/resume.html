@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {%- include head.html -%}
+
+  <body class="{% if site.darkmode == true %}dark{% endif %}">
+
+    {%- include language-selector.html -%}
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="container about-container">
+          {% assign section_title = site.translations[page.lang].sections.about | default: "About Me" %}
+          <h3 id="about">{{ section_title }}</h3>
+          <div class="row clearfix">
+            {%- if site.about_profile_image -%}
+              <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+                <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+              </div>
+            {%- endif -%}
+            <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9{%- endif -%}">
+              {% if page.lang == 'ja' %}
+                {{ site.about_content_ja | strip | markdownify }}
+              {% else %}
+                {{ site.about_content | strip | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        {% for section in site.content %}
+          <div class="container {{ section.layout }}-container">
+            <h3 id="{{ section.title | slugify }}">
+              {% if page.lang == 'ja' and section.title_ja %}
+                {{ section.title_ja }}
+              {% else %}
+                {{ section.title }}
+              {% endif %}
+            </h3>
+            
+            {% if section.layout == 'list' %}
+              {% include section-list.html %}
+            {% else %}
+              {% if page.lang == 'ja' and section.content_ja %}
+                {{ section.content_ja | strip | markdownify }}
+              {% else %}
+                {{ section.content | strip | markdownify }}
+              {% endif %}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    {% if site.darkmode == false %}
+      <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+    {% endif %}
+
+  </body>
+
+</html> 

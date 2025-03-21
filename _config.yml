@@ -4,8 +4,32 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
+# Languages
+languages: ["en", "ja"]
+default_lang: "en"
+
+# 多语言内容
+translations:
+  en:
+    sections:
+      about: "About Me"
+      experience: "Experience"
+      tech_stack: "Tech Stack"
+      education: "Education"
+      languages: "Languages"
+    title: "Analytics Engineer"
+  ja:
+    sections:
+      about: "自己紹介"
+      experience: "職歴"
+      tech_stack: "スキルセット"
+      education: "学歴"
+      languages: "言語能力"
+    title: "アナリティクスエンジニア"
+
 # Personal info
 name: GUANGYU QU
+name_ja: 屈 光宇
 title: Analytics Engineer
 email: quguangyu0321@gmail.com
 website: https://medium.com/@quguangyu0321
@@ -45,7 +69,6 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
@@ -56,6 +79,16 @@ about_content: | # this will include new lines to allow paragraphs
     Currently managing the delivery of large-scale telematics projects for leading automotive brands worldwide. I ensure seamless coordination between customer requirements and technical execution, optimizing service deployment and driving project success across multiple regions.
 
     Beyond IoT and connectivity, I am actively exploring AI applications, leveraging <mark>LLMs</mark>, Model Context Protocol (<mark>MCP</mark>), and other advanced technologies to develop intelligent business tools. Committed to continuous learning, I stay at the forefront of technological advancements to drive innovation and efficiency.
+
+about_content_ja: | # 日本語版自己紹介
+    NTTグループにて8年間のアナリティクスエンジニアとしての経験を持ち、データシステムの大幅な継続的改善に貢献してきました。
+    <mark>データベース</mark>、<mark>CI/CD</mark>、<mark>データパイプライン</mark>、<mark>ビジネスインテリジェンス（BI）</mark>、<mark>SQL</mark>、<mark>Python</mark>に精通しており、様々なタイプのデータ問題に対応するための幅広いスキルを実証しています。
+
+    専門分野として<mark>不正分析</mark>、<mark>マーケティング</mark>、<mark>HRテック</mark>、<mark>グローバルIoT接続</mark>などがあります。
+
+    現在は、世界中の主要自動車ブランド向けの大規模なテレマティクスプロジェクトの提供を管理しています。顧客要件と技術的実装の間のシームレスな調整を確保し、サービスデプロイメントを最適化し、複数の地域にわたるプロジェクト成功を推進しています。
+
+    IoTと接続性を超えて、<mark>LLM</mark>、モデルコンテキストプロトコル（<mark>MCP</mark>）などの高度な技術を活用したAIアプリケーションも積極的に探求し、インテリジェントなビジネスツールの開発に取り組んでいます。継続的学習に取り組み、技術的進歩の最前線に立ち、革新と効率性を推進しています。
 
 content:
   # - title: Projects # Title for the section
@@ -78,6 +111,7 @@ content:
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
+    title_ja: 職歴 # 日本語タイトル
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -86,12 +120,19 @@ content:
         link: https://www.ubigi.com/connected-cars/
         # link_text: boringcompany.com
         sub_title: Presales Engineer, Tokyo
+        sub_title_ja: プリセールスエンジニア、東京
         caption: December 2024 - Present
+        caption_ja: 2024年12月 - 現在
         description: | # this will include new lines to allow paragraphs
             - Led proposals and delivery support for both domestic and international connected car projects by understanding unique IT system requirements and collaborating with internal teams and global partners.
             - Acted as a solution architect, ensuring successful IT system delivery for connected car projects.
             - Spearheaded the planning, development, and cross-deployment of common features and value-added functions to drive contract wins, improve engagement, and reduce overall costs.
             - Independently designed and managed system architectures integrating mobile and IT technologies with multi-vendor platforms.
+        description_ja: | # 日本語説明
+            - 国内外のコネクテッドカープロジェクトのための提案と納品サポートをリードし、独自のITシステム要件を理解し、社内チームやグローバルパートナーと協働しています。
+            - ソリューションアーキテクトとして、コネクテッドカープロジェクトのITシステム納品の成功を確保しています。
+            - 契約獲得の推進、エンゲージメントの向上、全体コストの削減のための共通機能と付加価値機能の計画、開発、クロスデプロイメントを先導しています。
+            - モバイル技術とITテクノロジーをマルチベンダープラットフォームと統合するシステムアーキテクチャを独立して設計・管理しています。
 
       - layout: left
         border: weak
@@ -99,11 +140,17 @@ content:
         link: https://cellulardata.ubigi.com
         # link_text: boringcompany.com
         sub_title: Analystics Engineer, Paris
+        sub_title_ja: アナリティクスエンジニア、パリ
         caption: December 2023 - November 2024
+        caption_ja: 2023年12月 - 2024年11月
         description: | # this will include new lines to allow paragraphs
               I play a dual role, contributing to both the Marketing and Business Intelligence (BI) teams.
               - Led in-depth marketing analysis for <mark>Ubigi</mark>'s eSIM service(travel data from around the world), leveraging advanced data analytics to drive strategic decisions and enhance service offerings.
               - Collaborated closely with the Business Intelligence (BI) team to facilitate a seamless BI Platform Migration of the BI platform from on-premises to Snowflake, significantly improving data processing efficiency and scalability.
+        description_ja: | # 日本語説明
+              マーケティングチームとビジネスインテリジェンス（BI）チームの両方に貢献する二重の役割を果たしています。
+              - <mark>Ubigi</mark>のeSIMサービス（世界中の旅行データ）のための詳細なマーケティング分析をリードし、高度なデータ分析を活用して戦略的決定とサービス提供の向上を推進しています。
+              - ビジネスインテリジェンス（BI）チームと緊密に協力し、BIプラットフォームをオンプレミスからSnowflakeへ移行するプロセスを促進し、データ処理効率とスケーラビリティを大幅に向上させました。
 
       - layout: left
         border: weak
@@ -111,10 +158,15 @@ content:
         link: https://www.docomopacific.com
         # link_text: boringcompany.com
         sub_title: Analystics Engineer, Guam
+        sub_title_ja: アナリティクスエンジニア、グアム
         caption: April 2023 - September 2023
+        caption_ja: 2023年4月 - 2023年9月
         description: | # this will include new lines to allow paragraphs
-              I spearheaded a six-month project where I served as the lead trainer for Guam’s BI team.
+              I spearheaded a six-month project where I served as the lead trainer for Guam's BI team.
               I designed and delivered interactive, hands-on workshops to empower them in mastering Power BI, while also providing expert guidance on executing comprehensive customer satisfaction survey analyses.
+        description_ja: | # 日本語説明
+              私は6ヶ月間のプロジェクトをリードし、グアムのBIチームの主任トレーナーを務めました。
+              Power BIの習得を支援するためのインタラクティブなハンズオンワークショップを設計・提供し、包括的な顧客満足度調査分析の実施に関する専門的なガイダンスも提供しました。
 
       - layout: left
         border: weak
@@ -122,7 +174,9 @@ content:
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Analystics Engineer, Tokyo
+        sub_title_ja: アナリティクスエンジニア、東京
         caption: April 2020 - November 2023
+        caption_ja: 2020年4月 - 2023年11月
         description: | # this will include new lines to allow paragraphs
                  Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
                  I also serve as a link between the data engineer and data analyst teams within the big data group. Create services and teach the analysis team how to use the system.
@@ -130,6 +184,13 @@ content:
                  - I supported the HR department by analyzing investigations of employee engagement. Through this role, I helped HR identify areas of concern and implemented solutions to improve employee satisfaction and retention.(<mark>HR Analysis</mark>)
                  - I led to discuss and build data modeling guildline in bigdata team. Standardlize the process from source layer to dwh layer and datamart layer(<mark>Data Modeling</mark>).
                  - I have experience in proof of concept and implementation of Data Virtualization solutions ( Denodo) and data catalog solutions to help users accelerate their analysis.
+        description_ja: | # 日本語説明
+                 分析コンサルタントとして、スタッフが分析スキルを向上させるのを支援しています。ビジネスプロセスの問題を特定し、現代的なデジタル方法で再設計しています。
+                 また、ビッグデータグループ内のデータエンジニアチームとデータアナリストチームの間の橋渡し役も務めています。サービスを作成し、分析チームにシステムの使用方法を教えています。
+                 - <mark>内部監査</mark>チームのビジネス変革を推進し、内部リスクの効率的な分析と効果的な監査の実施を支援した経験があります。（<mark>不正分析</mark>）
+                 - 従業員エンゲージメントの調査分析を通じてHR部門をサポートしました。この役割を通じて、HR部門が懸念領域を特定し、従業員満足度と定着率を向上させるソリューションを実装するのを支援しました。（<mark>HR分析</mark>）
+                 - ビッグデータチームのデータモデリングガイドラインの議論と構築をリードしました。ソースレイヤーからDWHレイヤーとデータマートレイヤーへのプロセスを標準化しました。（<mark>データモデリング</mark>）
+                 - データ仮想化ソリューション（Denodo）とデータカタログソリューションの概念実証と実装の経験があり、ユーザーが分析を加速するのを支援しています。
 
       - layout: left
         border: weak
@@ -137,26 +198,41 @@ content:
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: DBA+PM
+        sub_title_ja: DBA+PM
         caption: April 2017 - March 2020
+        caption_ja: 2017年4月 - 2020年3月
         description: | # this will include new lines to allow paragraphs
                 Project Manager responsible for the maintenance of the on-premise <mark>Oracle</mark> EXADATA Database Machine platform. Reviewing daily tasks such as capacity planning, performance monitoring, security, backups, troubleshooting, and data recovery. 
                 - Designing and implementing a disaster backup site in a different region to ensure business continuity.
                 - Designing and implementing an ETL platform using OSS <mark>Talend</mark> Data Studio for the DWH team, resulting in faster data integration processes.
+        description_ja: | # 日本語説明
+                オンプレミスの<mark>Oracle</mark> EXADATAデータベースマシンプラットフォームの保守を担当するプロジェクトマネージャー。容量計画、パフォーマンス監視、セキュリティ、バックアップ、トラブルシューティング、データ復旧などの日常的なタスクをレビューしています。
+                - ビジネス継続性を確保するため、異なる地域に災害バックアップサイトを設計・実装しました。
+                - DWHチーム向けにOSS <mark>Talend</mark> Data Studioを使用したETLプラットフォームを設計・実装し、より迅速なデータ統合プロセスを実現しました。
 
       - layout: left
         title: NTT Communications, Tokyo
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Software Developer
+        sub_title_ja: ソフトウェア開発者
         caption: April 2016 - March 2017
+        caption_ja: 2016年4月 - 2017年3月
         description: | # this will include new lines to allow paragraphs
                   I have experience in developing a Master IT Facility Management System that collects and manages data from servers, network devices, and Excel files, providing reliable information via a web GUI for operators. 
                   - Constructing Linux/Windows servers and virtualized environments using Openstack, Docker, and Ansible in an on-premise setting.
                   - Designing and implementing a Storage Area Network (<mark>SAN</mark>) composed of servers, FC-switches, and VNX Storage.
                   - Installing and configuring a <mark>Zabbix</mark> monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
                   - Writing automated web application tests using <mark>Selenium</mark> and Python.
+        description_ja: | # 日本語説明
+                  サーバー、ネットワークデバイス、Excelファイルからデータを収集・管理し、オペレーターにWebGUIを通じて信頼性の高い情報を提供するマスターITファシリティ管理システムの開発経験があります。
+                  - オンプレミス環境でOpenstack、Docker、Ansibleを使用したLinux/Windowsサーバーと仮想化環境の構築を行いました。
+                  - サーバー、FCスイッチ、VNXストレージで構成されるストレージエリアネットワーク（<mark>SAN</mark>）の設計と実装を行いました。
+                  - サーバー、ストレージ、FCスイッチ、サーバー上で実行される開発されたアプリケーションを監視する<mark>Zabbix</mark>監視システムのインストールと設定を行いました。
+                  - <mark>Selenium</mark>とPythonを使用した自動化されたWebアプリケーションテストの作成を行いました。
 
   - title: Tech Stack # Title for the section
+    title_ja: テックスタック # 日本語タイトル
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
       - **Database** (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
@@ -168,31 +244,38 @@ content:
       - **Infra** (K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx,etc)
       - **Log Management** (Elasticsearch, Kibana, Logstash, Beatsfamily)
       - **Microsoft Solution** (GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
+    content_ja: | # 日本語コンテンツ
+      - **データベース** (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql等)
+      - **BIツール** (Tableau, PowerBI, Superset, Streamlit)
+      - **メタデータ管理** (Datahub, OpenMetadata)
+      - **データ仮想化** (denodo, tibco)
+      - **ETL/ELT** (DBT, Airflow, Talend, Airbyte)
+      - **データ品質** (Dbt test, Great expectations, Pytest)
+      - **インフラ** (K8S, Helm, ArgoCD,Ansible, Selenium, Sphinx等)
+      - **ログ管理** (Elasticsearch, Kibana, Logstash, Beatsfamily)
+      - **Microsoft Solutions** (GraphAPI, AzureAD, AzureSQL, WindowsServer等)
 
   - title: Education # Title for the section
+    title_ja: 学歴 # 日本語タイトル
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
       - 2014-2016, Master(Cognitive and Behavioral Sciences), Kyoto University, Kyoto
       - 2009-2013, Bachelor(Information Sciences), Tianjin University, Tianjin
+    content_ja: | # 日本語コンテンツ
+      - 2014-2016、修士（認知・行動科学）、京都大学、京都
+      - 2009-2013、学士（情報科学）、天津大学、天津
 
   - title: Languages # Title for the section
+    title_ja: 言語能力 # 日本語タイトル
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
       - Mandarin(Native)
       - Japanese(High Proficiency)
       - English(Business)
-
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content_ja: | # 日本語コンテンツ
+      - 中国語（ネイティブ）
+      - 日本語（高度な能力）
+      - 英語（ビジネスレベル）
 
 # Footer
 footer_show_references: false

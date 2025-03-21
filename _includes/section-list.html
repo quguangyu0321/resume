@@ -1,0 +1,52 @@
+{% for item in section.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      {%- if item.title -%}<h4>{{ item.title }}</h4>{%- endif -%}
+      {%- if page.lang == 'ja' and item.sub_title_ja -%}
+        <p><b>{{ item.sub_title_ja }}</b></p>
+      {%- elsif item.sub_title -%}
+        <p><b>{{ item.sub_title }}</b></p>
+      {%- endif -%}
+      
+      {%- if page.lang == 'ja' and item.caption_ja -%}
+        <p>{{ item.caption_ja }}</p>
+      {%- elsif item.caption -%}
+        <p>{{ item.caption }}</p>
+      {%- endif -%}
+
+      {%- if item.link -%}
+        <p class="no-print">
+          <a href="{{ item.link }}" target="_blank">
+            {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+          </a>
+        </p>
+      {%- endif -%}
+
+      {%- if item.additional_links -%}
+        <div class="no-print">
+          {%- for link in item.additional_links -%}
+            {%- if link.url -%}
+              <p>
+                <a href="{{ link.url }}" target="_blank">
+                  <i class="{{ link.icon }}"></i>
+                  {%- if link.text -%}{{ link.text }}{%- else -%}{{ link.url }}{%- endif -%}
+                </a>
+              </p>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.quote -%}
+        <p class="quote">{{ item.quote }}</p>
+      {%- endif -%}
+      
+      {% if page.lang == 'ja' and item.description_ja %}
+        {{ item.description_ja | strip | markdownify }}
+      {% else %}
+        {{ item.description | strip | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+{% endfor %} 

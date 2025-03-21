@@ -1,0 +1,15 @@
+global:
+  language: English
+  english: English
+  japanese: Japanese
+site:
+  title: GUANGYU QU - Resume
+  description: Resume and portfolio of GUANGYU QU
+sections:
+  about: About Me
+  experience: Experience
+  tech_stack: Tech Stack
+  education: Education
+  languages: Languages
+buttons:
+  download: Download PDF 
