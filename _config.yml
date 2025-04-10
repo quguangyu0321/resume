@@ -277,6 +277,22 @@ content:
       - 日本語（高度な能力）
       - 英語（ビジネスレベル）
 
+  - title: Personal Project # Title for the section
+      title_ja: 個人プロジェクト # 日本語タイトル
+      layout: text # Type of content section (list/text)
+      content: | # this will include new lines to allow paragraphs
+        I run a small studio called **LuluLab**, which is inspired by my pet Lulu (a Peach-faced Lovebird).
+
+        The studio primarily focuses on integrating the latest technologies in big data and AI to create interesting solutions.
+
+        Currently, there is a sub-project called [LuluEats](https://fast-order-xi.vercel.app/), which, as part of social contribution efforts, provides free digitalization assistance to startup restaurants. In the future, we will continuously integrate AI and IoT technologies into the daily operations of these restaurants.
+      content_ja: | # 日本語コンテンツ
+        私は**LuluLab**という小さなスタジオを運営しています。このスタジオの名前は、私のペットであるルル（ボタンインコ）にちなんで名付けられました。
+
+        スタジオでは主に、ビッグデータとAIの最新技術を融合させ、面白いソリューションを開発することに注力しています。
+
+        現在、「[LuluEats](https://fast-order-xi.vercel.app/)」というサブプロジェクトがあり、社会貢献の一環として、スタートアップのレストラン向けに無料のデジタル化支援を提供しています。将来的には、AIとIoT技術をレストランの日常業務に継続的に統合していく予定です。
+
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
