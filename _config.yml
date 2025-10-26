@@ -128,12 +128,12 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Led proposals and delivery support for both domestic and international connected car projects by understanding unique IT system requirements and collaborating with internal teams and global partners.
             - Acted as a solution architect, ensuring successful IT system delivery for connected car projects.
-            - Spearheaded the planning, development, and cross-deployment of common features and value-added functions to drive contract wins, improve engagement, and reduce overall costs.
+            - Offer technical guidance and support to the sales team on topics such as <mark>mobile networks</mark>, <mark>SASE</mark>, and <mark>IoT devices</mark>.
             - Independently designed and managed system architectures integrating mobile and IT technologies with multi-vendor platforms.
         description_ja: | # 日本語説明
             - 国内外のコネクテッドカープロジェクトのための提案と納品サポートをリードし、独自のITシステム要件を理解し、社内チームやグローバルパートナーと協働しています。
             - ソリューションアーキテクトとして、コネクテッドカープロジェクトのITシステム納品の成功を確保しています。
-            - 契約獲得の推進、エンゲージメントの向上、全体コストの削減のための共通機能と付加価値機能の計画、開発、クロスデプロイメントを先導しています。
+            - 営業チームに対し、（<mark>モバイルNW</mark>、<mark>SASE</mark>、<mark>IoT機器</mark>などの）技術支援を行います。
             - モバイル技術とITテクノロジーをマルチベンダープラットフォームと統合するシステムアーキテクチャを独立して設計・管理しています。
 
       - layout: left
@@ -148,11 +148,11 @@ content:
         description: | # this will include new lines to allow paragraphs
               I play a dual role, contributing to both the Marketing and Business Intelligence (BI) teams.
               - Led in-depth marketing analysis for <mark>Ubigi</mark>'s eSIM service(travel data from around the world), leveraging advanced data analytics to drive strategic decisions and enhance service offerings.
-              - Collaborated closely with the Business Intelligence (BI) team to facilitate a seamless BI Platform Migration of the BI platform from on-premises to Snowflake, significantly improving data processing efficiency and scalability.
+              - Collaborated closely with the <mark>Business Intelligence</mark> (BI) team to facilitate a seamless BI Platform Migration of the BI platform from on-premises to Snowflake, significantly improving data processing efficiency and scalability.
         description_ja: | # 日本語説明
               マーケティングチームとビジネスインテリジェンス（BI）チームの両方に貢献する二重の役割を果たしています。
               - <mark>Ubigi</mark>のeSIMサービス（世界中の旅行データ）のための詳細なマーケティング分析をリードし、高度なデータ分析を活用して戦略的決定とサービス提供の向上を推進しています。
-              - ビジネスインテリジェンス（BI）チームと緊密に協力し、BIプラットフォームをオンプレミスからSnowflakeへ移行するプロセスを促進し、データ処理効率とスケーラビリティを大幅に向上させました。
+              - ビジネスインテリジェンス（<mark>BI</mark>）チームと緊密に協力し、BIプラットフォームをオンプレミスからSnowflakeへ移行するプロセスを促進し、データ処理効率とスケーラビリティを大幅に向上させました。
 
       - layout: left
         border: weak
@@ -165,10 +165,10 @@ content:
         caption_ja: 2023年4月 - 2023年9月
         description: | # this will include new lines to allow paragraphs
               I spearheaded a six-month project where I served as the lead trainer for Guam's BI team.
-              I designed and delivered interactive, hands-on workshops to empower them in mastering Power BI, while also providing expert guidance on executing comprehensive customer satisfaction survey analyses.
+              I designed and delivered interactive, hands-on workshops to empower them in mastering <mark>Power BI</mark>, while also providing expert guidance on executing comprehensive customer satisfaction survey analyses.
         description_ja: | # 日本語説明
               私は6ヶ月間のプロジェクトをリードし、グアムのBIチームの主任トレーナーを務めました。
-              Power BIの習得を支援するためのインタラクティブなハンズオンワークショップを設計・提供し、包括的な顧客満足度調査分析の実施に関する専門的なガイダンスも提供しました。
+              <mark>Power BI</mark>の習得を支援するためのインタラクティブなハンズオンワークショップを設計・提供し、包括的な顧客満足度調査分析の実施に関する専門的なガイダンスも提供しました。
 
       - layout: left
         border: weak
@@ -196,47 +196,49 @@ content:
 
       - layout: left
         border: weak
-        title: NTT Communications, Tokyo
+        title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: DBA+PM
-        sub_title_ja: DBA+PM
+        sub_title: DBA+PM(Customer Service), Tokyo
+        sub_title_ja: DBA+PM、東京
         caption: April 2017 - March 2020
         caption_ja: 2017年4月 - 2020年3月
         description: | # this will include new lines to allow paragraphs
                 Project Manager responsible for the maintenance of the on-premise <mark>Oracle</mark> EXADATA Database Machine platform. Reviewing daily tasks such as capacity planning, performance monitoring, security, backups, troubleshooting, and data recovery. 
                 - Designing and implementing a disaster backup site in a different region to ensure business continuity.
-                - Designing and implementing an ETL platform using OSS <mark>Talend</mark> Data Studio for the DWH team, resulting in faster data integration processes.
+                - Designing and implementing an <mark>ETL</mark> platform using OSS Talend Data Studio for the DWH team, resulting in faster data integration processes.
         description_ja: | # 日本語説明
                 オンプレミスの<mark>Oracle</mark> EXADATAデータベースマシンプラットフォームの保守を担当するプロジェクトマネージャー。容量計画、パフォーマンス監視、セキュリティ、バックアップ、トラブルシューティング、データ復旧などの日常的なタスクをレビューしています。
                 - ビジネス継続性を確保するため、異なる地域に災害バックアップサイトを設計・実装しました。
-                - DWHチーム向けにOSS <mark>Talend</mark> Data Studioを使用したETLプラットフォームを設計・実装し、より迅速なデータ統合プロセスを実現しました。
+                - DWHチーム向けにOSS Talend Data Studioを使用した<mark>ETL</mark>プラットフォームを設計・実装し、より迅速なデータ統合プロセスを実現しました。
 
       - layout: left
-        title: NTT Communications, Tokyo
+        title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Software Developer
-        sub_title_ja: ソフトウェア開発者
+        sub_title: Software Developer(Customer Service), Tokyo
+        sub_title_ja: ソフトウェア開発者、東京
         caption: April 2016 - March 2017
         caption_ja: 2016年4月 - 2017年3月
         description: | # this will include new lines to allow paragraphs
                   I have experience in developing a Master IT Facility Management System that collects and manages data from servers, network devices, and Excel files, providing reliable information via a web GUI for operators. 
-                  - Constructing Linux/Windows servers and virtualized environments using Openstack, Docker, and Ansible in an on-premise setting.
-                  - Designing and implementing a Storage Area Network (<mark>SAN</mark>) composed of servers, FC-switches, and VNX Storage.
+                  - Constructing Linux/Windows servers and virtualized environments using <mark>Openstack</mark>, <mark>Docker</mark>, and <mark>Ansible</mark> in an on-premise setting.
+                  - Designing and implementing a Storage Area Network (<mark>SAN</mark>) composed of <mark>servers</mark>, <mark>FC-switches</mark>, and <mark>VNX Storage</mark>.
                   - Installing and configuring a <mark>Zabbix</mark> monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
-                  - Writing automated web application tests using <mark>Selenium</mark> and Python.
+                  - Writing automated web application tests using <mark>Selenium</mark> and <mark>Python</mark>.
         description_ja: | # 日本語説明
                   サーバー、ネットワークデバイス、Excelファイルからデータを収集・管理し、オペレーターにWebGUIを通じて信頼性の高い情報を提供するマスターITファシリティ管理システムの開発経験があります。
-                  - オンプレミス環境でOpenstack、Docker、Ansibleを使用したLinux/Windowsサーバーと仮想化環境の構築を行いました。
-                  - サーバー、FCスイッチ、VNXストレージで構成されるストレージエリアネットワーク（<mark>SAN</mark>）の設計と実装を行いました。
+                  - オンプレミス環境で<mark>Openstack</mark>、<mark>Docker</mark>、<mark>Ansible</mark>を使用したLinux/Windowsサーバーと仮想化環境の構築を行いました。
+                  - <mark>サーバー</mark>、<mark>FCスイッチ</mark>、<mark>VNXストレージ</mark>で構成されるストレージエリアネットワーク（<mark>SAN</mark>）の設計と実装を行いました。
                   - サーバー、ストレージ、FCスイッチ、サーバー上で実行される開発されたアプリケーションを監視する<mark>Zabbix</mark>監視システムのインストールと設定を行いました。
-                  - <mark>Selenium</mark>とPythonを使用した自動化されたWebアプリケーションテストの作成を行いました。
+                  - <mark>Selenium</mark>と<mark>Python</mark>を使用した自動化されたWebアプリケーションテストの作成を行いました。
 
   - title: Tech Stack # Title for the section
     title_ja: テックスタック # 日本語タイトル
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
+      - **5G&IOT** (CellularNW, SASE, etc)
+      - **AI** (Lamaindex, LLM, Vector Database, etc)
       - **Database** (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql,etc)
       - **BI Tools** (Tableau, PowerBI, Superset, Streamlit)
       - **Metadata Management** (Datahub, OpenMetadata)
@@ -247,6 +249,8 @@ content:
       - **Log Management** (Elasticsearch, Kibana, Logstash, Beatsfamily)
       - **Microsoft Solution** (GraphAPI, AzureAD, AzureSQL, WindowsServer etc)
     content_ja: | # 日本語コンテンツ
+      - **5G&IOT** (モバイルNW, SASE, etc)
+      - **AI** (Lamaindex, LLM, Vector Database, etc)
       - **データベース** (Duckdb, Snowflake, Hadoop, Hive, Trino, Clickhouse, Kafka, Oracle, Mysql等)
       - **BIツール** (Tableau, PowerBI, Superset, Streamlit)
       - **メタデータ管理** (Datahub, OpenMetadata)
