@@ -182,17 +182,17 @@ content:
         description: | # this will include new lines to allow paragraphs
                  Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
                  I also serve as a link between the data engineer and data analyst teams within the big data group. Create services and teach the analysis team how to use the system.
-                 - I have experience in driving business transformation for the <mark>internal audit</mark> team by helping them efficiently analyze internal risk and perform effective audits.(<mark>Fraud Analysis</mark>)
+                 - I have experience in driving business transformation for the internal audit team by helping them efficiently analyze internal risk and perform effective audits.(<mark>Fraud Analysis</mark>)
                  - I supported the HR department by analyzing investigations of employee engagement. Through this role, I helped HR identify areas of concern and implemented solutions to improve employee satisfaction and retention.(<mark>HR Analysis</mark>)
                  - I led to discuss and build data modeling guildline in bigdata team. Standardlize the process from source layer to dwh layer and datamart layer(<mark>Data Modeling</mark>).
-                 - I have experience in proof of concept and implementation of Data Virtualization solutions ( Denodo) and data catalog solutions to help users accelerate their analysis.
+                 - I have experience in proof of concept and implementation of <mark>Data Virtualization</mark> solutions ( Denodo) and <mark>Data Catalog</mark> solutions to help users accelerate their analysis.
         description_ja: | # 日本語説明
                  分析コンサルタントとして、スタッフが分析スキルを向上させるのを支援しています。ビジネスプロセスの問題を特定し、現代的なデジタル方法で再設計しています。
                  また、ビッグデータグループ内のデータエンジニアチームとデータアナリストチームの間の橋渡し役も務めています。サービスを作成し、分析チームにシステムの使用方法を教えています。
                  - <mark>内部監査</mark>チームのビジネス変革を推進し、内部リスクの効率的な分析と効果的な監査の実施を支援した経験があります。（<mark>不正分析</mark>）
                  - 従業員エンゲージメントの調査分析を通じてHR部門をサポートしました。この役割を通じて、HR部門が懸念領域を特定し、従業員満足度と定着率を向上させるソリューションを実装するのを支援しました。（<mark>HR分析</mark>）
                  - ビッグデータチームのデータモデリングガイドラインの議論と構築をリードしました。ソースレイヤーからDWHレイヤーとデータマートレイヤーへのプロセスを標準化しました。（<mark>データモデリング</mark>）
-                 - データ仮想化ソリューション（Denodo）とデータカタログソリューションの概念実証と実装の経験があり、ユーザーが分析を加速するのを支援しています。
+                 - <mark>データ仮想化ソリューション</mark>（Denodo）と<mark>データカタログ</mark>ソリューションの概念実証と実装の経験があり、ユーザーが分析を加速するのを支援しています。
 
       - layout: left
         border: weak
@@ -223,13 +223,13 @@ content:
         description: | # this will include new lines to allow paragraphs
                   I have experience in developing a Master IT Facility Management System that collects and manages data from servers, network devices, and Excel files, providing reliable information via a web GUI for operators. 
                   - Constructing Linux/Windows servers and virtualized environments using <mark>Openstack</mark>, <mark>Docker</mark>, and <mark>Ansible</mark> in an on-premise setting.
-                  - Designing and implementing a Storage Area Network (<mark>SAN</mark>) composed of <mark>servers</mark>, <mark>FC-switches</mark>, and <mark>VNX Storage</mark>.
-                  - Installing and configuring a <mark>Zabbix</mark> monitoring system to monitor servers, storage, FC-switches, and developed applications running on servers.
+                  - Designing and implementing a Storage Area Network (SAN) composed of <mark>Servers</mark>, <mark>FC-switches</mark>, and <mark>VNX Storage</mark>.
+                  - Installing and configuring a <mark>Zabbix</mark> monitoring system to monitor Servers, storage, FC-switches, and developed applications running on servers.
                   - Writing automated web application tests using <mark>Selenium</mark> and <mark>Python</mark>.
         description_ja: | # 日本語説明
                   サーバー、ネットワークデバイス、Excelファイルからデータを収集・管理し、オペレーターにWebGUIを通じて信頼性の高い情報を提供するマスターITファシリティ管理システムの開発経験があります。
                   - オンプレミス環境で<mark>Openstack</mark>、<mark>Docker</mark>、<mark>Ansible</mark>を使用したLinux/Windowsサーバーと仮想化環境の構築を行いました。
-                  - <mark>サーバー</mark>、<mark>FCスイッチ</mark>、<mark>VNXストレージ</mark>で構成されるストレージエリアネットワーク（<mark>SAN</mark>）の設計と実装を行いました。
+                  - <mark>サーバー</mark>、<mark>FCスイッチ</mark>、<mark>VNXストレージ</mark>で構成されるストレージエリアネットワーク（SAN）の設計と実装を行いました。
                   - サーバー、ストレージ、FCスイッチ、サーバー上で実行される開発されたアプリケーションを監視する<mark>Zabbix</mark>監視システムのインストールと設定を行いました。
                   - <mark>Selenium</mark>と<mark>Python</mark>を使用した自動化されたWebアプリケーションテストの作成を行いました。
 
