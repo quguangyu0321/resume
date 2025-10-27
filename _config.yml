@@ -73,7 +73,7 @@ additional_links:
 # About Section
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    With 8 years of experience in Analytics Engineering at NTT GROUP, I have led to significant, continuous improvements in data systems.
+    With 8 years of experience as a <mark>full stack data scientist</mark> at NTT GROUP, I have led to significant, continuous improvements in data systems.
     Proficient in <mark>Databases</mark>, <mark>CI/CD</mark>, <mark>Data Pipelines</mark>, <mark>Business Intelligence (BI)</mark>, <mark>SQL</mark>, and <mark>Python</mark>, demonstrating a wide range of skills for different types of data problems.
 
     My expertise spans  <mark>Fraud Analysis</mark>, <mark>Marketing</mark>, <mark>HR-tech</mark>, and <mark>global IoT connectivity</mark> among other areas.
@@ -83,7 +83,7 @@ about_content: | # this will include new lines to allow paragraphs
     Beyond IoT and connectivity, I am actively exploring AI applications, leveraging <mark>LLMs</mark>, Model Context Protocol (<mark>MCP</mark>), and other advanced technologies to develop intelligent business tools. Committed to continuous learning, I stay at the forefront of technological advancements to drive innovation and efficiency.
 
 about_content_ja: | # 日本語版自己紹介
-    NTTグループにて8年間のアナリティクスエンジニアとしての経験を持ち、データシステムの大幅な継続的改善に貢献してきました。
+    NTTグループにて8年間の<mark>アナリティクスエンジニア</mark>としての経験を持ち、データシステムの大幅な継続的改善に貢献してきました。
     <mark>データベース</mark>、<mark>CI/CD</mark>、<mark>データパイプライン</mark>、<mark>ビジネスインテリジェンス（BI）</mark>、<mark>SQL</mark>、<mark>Python</mark>に精通しており、様々なタイプのデータ問題に対応するための幅広いスキルを実証しています。
 
     専門分野として<mark>不正分析</mark>、<mark>マーケティング</mark>、<mark>HRテック</mark>、<mark>グローバルIoT接続</mark>などがあります。
@@ -121,7 +121,7 @@ content:
         title: NTT Docomo Business
         link: https://www.ubigi.com/connected-cars/
         # link_text: boringcompany.com
-        sub_title: Presales Engineer, Tokyo
+        sub_title: Presales Engineer(5G&IOT), Tokyo
         sub_title_ja: プリセールスエンジニア、東京
         caption: December 2024 - Present
         caption_ja: 2024年12月 - 現在
@@ -175,20 +175,20 @@ content:
         title: NTT Communications
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Analystics Engineer, Tokyo
+        sub_title: Analystics Engineer(DX), Tokyo
         sub_title_ja: アナリティクスエンジニア、東京
         caption: April 2020 - November 2023
         caption_ja: 2020年4月 - 2023年11月
         description: | # this will include new lines to allow paragraphs
-                 Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
-                 I also serve as a link between the data engineer and data analyst teams within the big data group. Create services and teach the analysis team how to use the system.
+                 <mark>Center of Excellence(COE)</mark> in Data Analysis. Work as an analysis consultant to help staff improve their analytical skills. Identifying problems in business processes and redesigning them in a modern digital way.
+                 I also serve as a link between the <mark>data engineer</mark> and <mark>data analyst</mark> teams within the big data group. Create services and teach the analysis team how to use the system.
                  - I have experience in driving business transformation for the internal audit team by helping them efficiently analyze internal risk and perform effective audits.(<mark>Fraud Analysis</mark>)
                  - I supported the HR department by analyzing investigations of employee engagement. Through this role, I helped HR identify areas of concern and implemented solutions to improve employee satisfaction and retention.(<mark>HR Analysis</mark>)
                  - I led to discuss and build data modeling guildline in bigdata team. Standardlize the process from source layer to dwh layer and datamart layer(<mark>Data Modeling</mark>).
                  - I have experience in proof of concept and implementation of <mark>Data Virtualization</mark> solutions ( Denodo) and <mark>Data Catalog</mark> solutions to help users accelerate their analysis.
         description_ja: | # 日本語説明
-                 分析コンサルタントとして、スタッフが分析スキルを向上させるのを支援しています。ビジネスプロセスの問題を特定し、現代的なデジタル方法で再設計しています。
-                 また、ビッグデータグループ内のデータエンジニアチームとデータアナリストチームの間の橋渡し役も務めています。サービスを作成し、分析チームにシステムの使用方法を教えています。
+                 <mark>COE組織</mark>であり、分析コンサルタントとして、スタッフが分析スキルを向上させるのを支援しています。ビジネスプロセスの問題を特定し、現代的なデジタル方法で再設計しています。
+                 また、ビッグデータグループ内の<mark>データエンジニアチーム</mark>と<mark>データアナリストチーム</mark>の間の橋渡し役も務めています。サービスを作成し、分析チームにシステムの使用方法を教えています。
                  - <mark>内部監査</mark>チームのビジネス変革を推進し、内部リスクの効率的な分析と効果的な監査の実施を支援した経験があります。（<mark>不正分析</mark>）
                  - 従業員エンゲージメントの調査分析を通じてHR部門をサポートしました。この役割を通じて、HR部門が懸念領域を特定し、従業員満足度と定着率を向上させるソリューションを実装するのを支援しました。（<mark>HR分析</mark>）
                  - ビッグデータチームのデータモデリングガイドラインの議論と構築をリードしました。ソースレイヤーからDWHレイヤーとデータマートレイヤーへのプロセスを標準化しました。（<mark>データモデリング</mark>）
